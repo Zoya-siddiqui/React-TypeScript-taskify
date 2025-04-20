@@ -4,64 +4,64 @@ import InputFeild from './components/InputFeild'
 import TodoList from './components/TodoList'
 
 
-let name:string;
-let age : number;
-let isStudent : boolean;
-let students : string[];
+// let name:string;
+// let age : number;
+// let isStudent : boolean;
+// let students : string[];
 //tupel  tupal contain fix amount of value 
-let role : [number , string]
-name="zoya"
+// let role : [number , string]
+// name="zoya"
 
-role = [3,"4"];
+// role = [3,"4"];
 // type keyword  interface keyword
 
-type Person = {
-  name : string,
+// type Person = {
+  // name : string,
 //if want to make any properly optional then 
-  class? :  number,
-  age : number
-};
+  // class? :  number,
+  // age : number
+// };
 
-let person : Person = {
-  name : "piyush",
-  age :  12
-}
+// let person : Person = {
+//   name : "piyush",
+//   age :  12
+// }
 
 //union typesring if we want varic=ble can be both nubmer and string both then 
-let age1 : number | string
+// let age1 : number | string
 
-function myperson(name:string){
-  console.log(name)
-}
+// function myperson(name:string){
+//   console.log(name)
+// }
 
-myperson("zoe");
+// myperson("zoe");
 
 //if we dont know what type to give
-let  myname : unknown
+// let  myname : unknown
 
 //type and interface are aliace type ko extend krsakete hai 
-type X = {
-    name :string,
-    age : number
-}
-type Y = X &{
-  class: number
-}
+// type X = {
+//     name :string,
+//     age : number
+// }
+// type Y = X &{
+//   class: number
+// }
 
-let y : Y={
-  name:"s",
-  age:23,
-  class : 23
-}
+// let y : Y={
+//   name:"s",
+//   age:23,
+//   class : 23
+// }
 
 
-interface person2 {
-name : string
-}
+// interface person2 {
+// name : string
+// }
 
-interface guy extends person2 {
-  profetion : string
-}
+// interface guy extends person2 {
+//   profetion : string
+// }
 
 
 
