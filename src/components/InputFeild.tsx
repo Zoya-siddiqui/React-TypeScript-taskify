@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 
 interface Props {
     todo : string,
-    setTodo: React.Dispatch<React.SetStateAction<String>>
+    setTodo: React.Dispatch<React.SetStateAction<string>>;
     handleAdd : (e : React.SyntheticEvent)=>void
 }
 
