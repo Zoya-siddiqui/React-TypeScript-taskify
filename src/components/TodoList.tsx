@@ -11,7 +11,7 @@ interface Todo {
 
 interface Props {
   todos: Todo[];
-  setTodo: React.Dispatch<React.SetStateAction<string>>;
+  setTodo: React.Dispatch<React.SetStateAction<string>>
   handleEdit: (id: number) => void;
   handleDelete: (id: number) => void;
   handleToggleDone: (id: number) => void;
